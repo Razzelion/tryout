@@ -8,7 +8,7 @@ namespace YourName
         {
             Console.WriteLine("input name:");
             string input = Console.ReadLine();
-            Console.WriteLine("Hello, my name is {input}.");
+            Console.WriteLine($"Hello, my name is {input}.");
         }
     }
 }
