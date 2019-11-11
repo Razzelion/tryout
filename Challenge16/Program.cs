@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace FruitFinder
 {
@@ -24,6 +24,9 @@ namespace FruitFinder
 
         static int IndexFinder(string[] list, string value)
         {
+            int a = Array.IndexOf(list, value);
+            Console.WriteLine(a);
+            
             return 0;
         }
     }
